@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,54 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Desktop styles (Bootstrap handles most of this) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 2rem;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 1rem;
+    background-color: #f8f9fa;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .mobile-only {
+    display: none;
+  }
+
+  .desktop-only {
+    display: block;
+  }
+}
+
+/* Optional - in index.css or App.css */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
 }

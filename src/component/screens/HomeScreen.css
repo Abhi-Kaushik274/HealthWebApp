@@ -1,0 +1,98 @@
+/* src/components/screens/HomeScreen.css
+.home-container {
+    padding-bottom: 80px; 
+    background-color: #f8f9fa;
+  }
+  
+  .search-input {
+    border-radius: 12px;
+    padding: 10px 14px;
+  }
+  
+  .black-card {
+    background-color: #000;
+  }
+  
+  .horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  
+  .horizontal-scroll::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .menu-card {
+    min-width: 160px;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+   */
+
+   /* src/components/screens/HomeScreen.css */
+.home-container {
+    height: 84vh;
+    overflow-y: auto;
+    padding-bottom: 80px; /* space for footer */
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-input {
+    border-radius: 12px;
+    padding: 10px 14px;
+  }
+  
+  .black-card {
+    background-color: #000;
+    border-radius: 20px;
+  }
+  
+  .horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  
+  .horizontal-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .menu-card {
+    min-width: 160px;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+
+  .horizontal-scroll {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* smooth on iOS */
+    gap: 12px;
+    padding: 10px 0;
+  }
+  
+  .horizontal-scroll::-webkit-scrollbar {
+    display: none; /* hide scroll bar */
+  }
+  
+  .menu-card {
+    flex: 0 0 auto; /* don't shrink */
+    min-width: 180px;
+    max-width: 200px;
+    scroll-snap-align: start;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+
+  /* Optional styling if you want to customize later */
+.header-profile img {
+    border: 2px solid #dee2e6;
+  }
+  
