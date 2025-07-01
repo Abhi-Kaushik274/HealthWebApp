@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/healthcareapp/static/css/main.6b719677.css",
-    "main.js": "/healthcareapp/static/js/main.d134faa0.js",
+    "main.js": "/healthcareapp/static/js/main.3cc3ee4e.js",
     "static/js/453.9d1a04ca.chunk.js": "/healthcareapp/static/js/453.9d1a04ca.chunk.js",
     "static/media/fa-solid-900.ttf": "/healthcareapp/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/healthcareapp/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -15,11 +15,11 @@
     "static/media/fa-v4compatibility.woff2": "/healthcareapp/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/healthcareapp/index.html",
     "main.6b719677.css.map": "/healthcareapp/static/css/main.6b719677.css.map",
-    "main.d134faa0.js.map": "/healthcareapp/static/js/main.d134faa0.js.map",
+    "main.3cc3ee4e.js.map": "/healthcareapp/static/js/main.3cc3ee4e.js.map",
     "453.9d1a04ca.chunk.js.map": "/healthcareapp/static/js/453.9d1a04ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b719677.css",
-    "static/js/main.d134faa0.js"
+    "static/js/main.3cc3ee4e.js"
   ]
 }
