@@ -29,7 +29,7 @@ const defaultCenter = {
 };
 
 // Replace with your actual Google Maps API key (keep it secure)
-const GOOGLE_MAPS_API_KEY = 'AIzaSyA9eEEOCsycCV4jz2_QY-oa_LQtEWFxcp8';
+const GOOGLE_MAPS_API_KEY = '';
 
 const ProfileScreen = () => {
   const [from, setFrom] = useState('');
